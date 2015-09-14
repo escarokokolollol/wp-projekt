@@ -1,0 +1,48 @@
+*{
+	font-family: verdana;
+	color: #555;
+}
+
+body{
+	padding: 0;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+header{
+	background: #eee;
+	overflow: hidden;
+	position: relative;
+}
+
+header h1{
+	margin: 0;
+	display: inline;
+	position: absolute;
+	top: 8px;
+	left: 10px;
+}
+header nav ul{
+	list-style: none;
+	padding: 0;
+	float: right;
+}
+
+header nav ul li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: #555;
+}
+
+#container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
