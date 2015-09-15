@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Torkad frukt!</title>
+	<title>Torkad frukt! 2.0</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
 
@@ -32,6 +32,9 @@
 
 		</main>
 	</div>
+
+
+	<h2>oscar</h2>
 
 
 	

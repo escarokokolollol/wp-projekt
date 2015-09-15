@@ -43,6 +43,11 @@ header nav ul li a{
 #container{
 	width: 80%;
 	margin: 0 auto;
+	height: 500px;
 }
 
+footer{
+	background: #eee;
+	padding: 1em;
+}
 
