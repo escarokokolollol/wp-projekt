@@ -1,44 +1,79 @@
 *{
-	font-family: verdana;
+	font-family: Raleway;
+	font-weight: 500;
 	color: #555;
+/*	background-image: url("images/whitetexture01.jpg");*/
 }
 
 body{
 	padding: 0;
 	margin: 0 auto;
-	max-width: 100%;
 }
 
 header{
-	background: #eee;
-	overflow: hidden;
+	width: 100%;
+	height: 100px;
+	background: #eee;	
 	position: relative;
-	width: 100%;	
+
 }
 
-header h1{
-	margin: 0;
-	display: inline;
+header img{
 	position: absolute;
-	top: 8px;
-	left: 10px;
+	top: 10px;
+	left: 9%;
+	width: 250px;
 }
-header nav ul{
+
+header h1 {
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0;
+	position: absolute;
+	top: 30px;
+	right: 100px;
+}
+
+nav{
+	margin: 0;
+	height: 40px;
+	border-top: 1px solid #333;
+	background: #222;
+	overflow: hidden;
+}
+nav ul{
+	margin: 0 auto;
 	list-style: none;
 	padding: 0;
-	float: right;
+	margin-left: 10%;
+	margin-top: 8px;
 }
 
-header nav ul li{
+nav ul li{
 	list-style: none;
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
 
 }
 
-header nav ul li a{
+nav ul li a{
+	font-size: 20px;
+	text-transform: uppercase;
 	text-decoration: none;
-	color: #555;
+	color: #eee;
+}
+
+nav .box {
+	float: right;
+	margin-right: 120px;
+}
+
+nav .box .container-1{
+
+}
+
+nav .box .container-1 i{
+	color: #eee;
 }
 
 #container{
