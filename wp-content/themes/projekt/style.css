@@ -1,8 +1,7 @@
 *{
-	font-family: Raleway;
+	font-family: 'abel';
 	font-weight: 500;
 	color: #555;
-/*	background-image: url("images/whitetexture01.jpg");*/
 }
 
 body{
@@ -12,56 +11,47 @@ body{
 
 header{
 	width: 100%;
-	height: 100px;
-	background: #eee;	
-	position: relative;
-
+	background: #222;	
 }
 
-header img{
-	position: absolute;
-	top: 10px;
-	left: 9%;
-	width: 250px;
-}
 
-header h1 {
-	text-transform: uppercase;
-	display: inline-block;
-	margin: 0;
-	position: absolute;
-	top: 30px;
-	right: 100px;
-}
 
 nav{
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
 	margin: 0;
 	height: 40px;
-	border-top: 1px solid #333;
-	background: #222;
+	background: #333;
 	overflow: hidden;
 }
 nav ul{
 	margin: 0 auto;
 	list-style: none;
 	padding: 0;
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-top: 8px;
 }
 
 nav ul li{
 	list-style: none;
 	float: left;
-	margin-right: 20px;
-
+	margin-right: 10px;
 }
 
 nav ul li a{
+	font-family: 'lato';
+	font-weight: 100;
 	font-size: 20px;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #eee;
 }
+
+nav li:first-child{
+	border-right: 2px solid #555;
+	padding-right: 10px;
+}	
 
 nav .box {
 	float: right;
@@ -76,6 +66,10 @@ nav .box .container-1 i{
 	color: #eee;
 }
 
+#search{
+	width: 150px;
+}
+
 #container{
 	width: 80%;
 	margin: 0 auto;
@@ -83,7 +77,356 @@ nav .box .container-1 i{
 }
 
 footer{
-	background: #eee;
+	background: #222;
 	padding: 1em;
+	text-align: center;
 }
+
+footer ul{
+	list-style: none;
+	display: inline-block;
+	width: 910px;
+	padding: 0;
+	margin: auto;
+}
+
+footer li{
+	float: left;
+	text-align: left;
+	width: 180px;
+	padding-right: 20px;
+	margin-right: 40px;
+	border-right: solid 1px #555;
+	font-size: 12px;
+}
+
+footer li:nth-child(4){
+	border-right: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start 2.0*/
+
+
+#container{
+	width: 900px;
+	/*background: #fff;*/
+	margin: 0px auto;
+	overflow: hidden;
+	height: 2000px;
+}
+
+
+
+
+#top{
+	width: 100%;
+	max-height: 480px;
+	text-align: center;
+	margin-top: 40px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+#top div{
+	width: 700px;
+	position: absolute;
+	list-style: 50px;
+	bottom: 40px;
+	left: 60px;
+	text-align: left;
+}
+
+#top span{
+	text-transform: uppercase;
+	color: #fff;
+	width: 400px;
+	line-height: 80px;
+}
+
+.pre_header{
+	font-family: 'lato';
+	font-weight: 100;
+	font-size: 35px;
+}
+
+.main_header{
+	font-family: 'work sans';
+	font-weight: 700;
+	font-size: 50px;
+}
+
+#top_img{
+	width: auto;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+
+
+
+#content{
+	padding: 40px 0;
+	text-align: center;
+	list-style: none;
+	border-top: 1px dotted #b3b3b3;
+	border-bottom: 1px dotted #b3b3b3;
+}
+
+#content li{
+	display: inline-block;
+	width: 49.5%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+#content div{
+	width: 100%;
+}
+
+#content img{
+	max-width: 140%;
+}
+
+#content li:hover .layer{
+	z-index: 100;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+#content li:hover img{
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+
+#content span{
+	position: absolute;
+	z-index: 200;
+	font-family: 'raleway';
+	font-size: 40px;
+	text-transform: uppercase;
+	width: 250px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.span_upper_left{
+	left: 20px;
+	top: 20px;
+	font-weight: 400;
+	text-align: left;
+}
+
+.span_lower_right{
+	right: 20px;
+	bottom: 20px;
+	font-weight: 700;
+	text-align: right;
+}
+
+.span_lower_left{
+	left: 20px;
+	bottom: 20px;
+	text-align: left;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*product css*/
+
+*{
+	font-family: 'abel';
+}
+#utfyllnad{
+	height: 100px;
+}
+
+body{
+	background-size: 125%;
+	background-attachment: fixed;
+}
+
+#pagecontainer{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#product{
+	width: 100%;
+	height: 750px;
+	background: #ddd;
+}
+
+/*Visningsbilder*/
+
+#left{
+	float: left;
+	width: 50%;
+	margin: 50px 50px;
+}
+
+#display{
+	position: relative;
+}
+
+#mainImg{
+	width: 100%;
+	display: block;
+}
+
+#previous{
+	position: absolute;
+	background: black;
+	width: 50px;
+	height: 50px;
+	top: 200px;
+	left: 0px;
+}
+
+#next{
+	position: absolute;
+	background: black;
+	width: 50px;
+	height: 50px;
+	top: 200px;
+	right: 0px;
+}
+
+#altImg{
+	list-style-type: none;
+	width: 100%;
+	margin: 20px auto;
+	padding: 0;
+}
+
+#altImg li{
+	display: inline-block; 
+	cursor: pointer;
+	margin-right: 7px;
+}
+
+#altImg li:nth-child(4){
+	margin-right: 0;
+}
+
+#altImg img{
+	width: 118px;
+}
+
+/*Produktinformation*/
+
+#right{
+	float: left;
+	width: 35%;
+	height: 506px;
+	background: #fff;
+	margin-top: 50px;
+}
+
+#info{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#description{
+	font-size: 15px;
+}
+
+#size{
+	font-size: 13px;
+}
+
+#quantity{
+	margin-top: 10px;
+}
+
+#add{
+	margin-top: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+/*Relaterat till produkten*/
+
+#related{
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	background: white;
+}
+
+#related h2{
+	margin-left: 40px;
+}
+
+#related li{
+	display: inline-block;
+}
+
+#relatedLinks{
+	list-style-type: none;
+}
+
+#relatedLinks img{
+	width: 150px;
+	margin-right: 30px;
+}
+
+#utfyllnad2{
+	height: 100px;
+	clear: both;
+}
+
+
+
 
