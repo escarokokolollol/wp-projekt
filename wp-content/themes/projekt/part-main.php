@@ -1,4 +1,4 @@
-
+<?php get_header(); ?>
 
 <div id="container">
 
@@ -9,4 +9,4 @@
 		</article>
 	<?php endwhile; endif; ?>
 
-</div> <!-- END OF CONTAINTER -->
+<?php get_footer(); ?>

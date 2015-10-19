@@ -1,21 +1,4 @@
-<html>
-<head>
-	<title>start</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Raleway:400,900,800,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700,900' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,700,800,900' rel='stylesheet' type='text/css'>
-</head>
-<body>
-
-
-
-
-
-
-<div id="container">
+<?php get_header(); ?>
 
 	<div id="top">
 		<div class="main_landing">
@@ -70,10 +53,6 @@
 		</li>
 	</ul>
 
-</div>
+<?php get_footer(); ?>
 
 
-
-
-</body>
-</html>

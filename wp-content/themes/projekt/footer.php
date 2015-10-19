@@ -1,3 +1,5 @@
+	</div><!--  end of container --> 
+
 	<footer>
 
 
@@ -21,9 +23,9 @@
 
 		</ul>
 
-
-
 	</footer>
+
+	<?php wp_footer() ?>
 
 </body>
 </html>
