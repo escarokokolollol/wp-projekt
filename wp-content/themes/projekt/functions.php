@@ -25,3 +25,25 @@
 
 	add_filter( 'wp_page_menu_args', 'home_page_menu_args' );
 
+
+// 	function create_posttype() { 
+
+// 		register_post_type( 'movies',
+// 			array(
+// 				'labels' => array(
+// 					'name' => __( 'Banner'),
+// 					'singular_name' => array('slug' => 'banner')
+// 					),
+// 				'public' => true,
+// 				'has_archive' => true,
+// 				'rewrite' => array('slug' => 'banner'),
+// 			)
+// 		);
+// }
+
+// add_action( 'init', 'create_posttype' );
+
+
+
+
+
