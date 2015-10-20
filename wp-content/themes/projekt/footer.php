@@ -3,7 +3,24 @@
 	<footer>
 
 
-		<ul>
+
+		<nav class="site-nav">
+			<?php
+	
+				$args=array('theme_location' => 'footer' );
+	
+			?>
+	
+			<?php wp_nav_menu( $args); ?>
+
+  		</nav>
+
+
+
+
+
+
+<!-- 		<ul>
 			<li>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua.</p>				
@@ -21,7 +38,7 @@
 		tempor incididunt ut labore et dolore magna aliqua.</p>
 			</li>
 
-		</ul>
+		</ul> -->
 
 	</footer>
 
