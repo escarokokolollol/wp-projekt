@@ -81,9 +81,9 @@ footer{
 	background: #222;
 	padding: 1em;
 	text-align: center;
-	height: 90px;
+	height: 100px;
 	width: 100%;
-	position: absolute;
+	clear: both;
 }
 
 /*footer ul{
@@ -132,10 +132,10 @@ footer li:nth-child(4){
 
 /*single-product.php*/
 
-h1.product_title{
-	float: right;
+div .images{
+	width: 50%;
+	float: left;
 }
-
 
 
 
