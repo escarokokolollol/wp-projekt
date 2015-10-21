@@ -68,6 +68,10 @@ nav .box .container-1 i{
 }
 
 #container{
+ 	margin-top: 40px;
+}
+
+#pagecontainer{
 	width: 80%;
 	margin: 0 auto;
 	padding-top: 40px;
@@ -126,14 +130,10 @@ footer li:nth-child(4){
 
 
 
+/*single-product.php*/
 
-
-
-
-
-.images{
-	width: 30%;
-	height: 100%;
+h1.product_title{
+	float: right;
 }
 
 
