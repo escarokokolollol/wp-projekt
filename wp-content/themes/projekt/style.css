@@ -84,6 +84,7 @@ footer{
 	height: 100px;
 	width: 100%;
 	clear: both;
+	margin-top: 20px;
 }
 
 /*footer ul{
@@ -123,6 +124,29 @@ footer li:nth-child(4){
 
 
 
+/*
+
+css för produktvy
+
+*/
+
+#content {
+
+}
+
+#content ul{
+	list-style: none;
+	bord er: 1px dashed red;
+	padding:0;
+}
+
+#content ul li{
+	width: 30%;
+	margin: 0;
+	bord er: 1px dashed blue;
+	float: left;
+	margin-right: 20px; 
+}
 
 
 
