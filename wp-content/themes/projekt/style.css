@@ -77,9 +77,12 @@ nav .box .container-1 i{
 	padding-top: 40px;
 }
 
+#content{
+	overflow: hidden;
+}
+
 footer{
 	background: #222;
-	padding: 1em;
 	text-align: center;
 	height: 100px;
 	width: 100%;
@@ -130,10 +133,6 @@ css för produktvy
 
 */
 
-#content {
-
-}
-
 #content ul{
 	list-style: none;
 	bord er: 1px dashed red;
@@ -160,6 +159,101 @@ div .images{
 	width: 50%;
 	float: left;
 }
+
+div .summary{
+	float: left;
+	width: 50%;
+	height: 250px;
+}
+
+
+
+
+/*Add to cart button*/
+
+button.single_add_to_cart_button{
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+
+
+
+/*Content UL*/
+
+#content ul.tabs{
+	display: inline;
+	float: left;
+	width: 370px;
+	border-bottom: 1px solid gray;
+}
+
+#content ul.tabs li{
+	white-space: nowrap;
+}
+
+#content ul.tabs li a{
+	text-decoration: none;
+	width: 100%;
+}
+
+#content ul.tabs li.description_tab{
+	width: 80px;
+}
+
+#content ul.tabs li.reviews_tab{
+	width: 80px;
+}
+
+#content ul.tabs li.additional_information_tab{
+	width: 150px;
+}
+
+
+
+/*Description*/
+
+#tab-description{
+	width: 50%;
+	float: right;
+}
+
+#tab-description h2{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+
+
+#tab-additional_information{
+	width: 50%;
+	float: right;
+}
+
+#tab-additional_information h2{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#tab-reviews{
+	width: 50%;
+	float: right;
+}
+
+#tab-reviews h2{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
