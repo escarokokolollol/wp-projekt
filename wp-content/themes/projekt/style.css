@@ -133,9 +133,6 @@ css för produktvy
 
 */
 
-<<<<<<< Updated upstream
-#content ul{
-=======
 #content{
 	overflow: hidden;
 }
@@ -163,7 +160,6 @@ css för produktvy
 #content ul.products{
 	bo rder: 1px dashed red;
 	width: 80%;
->>>>>>> Stashed changes
 	list-style: none;
 	padding:0;
 	float: right;
@@ -274,14 +270,17 @@ button.single_add_to_cart_button{
 /*Content UL*/
 
 #content ul.tabs{
-	display: inline;
+	list-style-type: none;
 	float: left;
 	width: 370px;
 	border-bottom: 1px solid gray;
+	padding: 0;
 }
 
 #content ul.tabs li{
 	white-space: nowrap;
+	display: inline;
+	margin-right: 25px;
 }
 
 #content ul.tabs li a{
@@ -315,7 +314,9 @@ button.single_add_to_cart_button{
 	margin-top: 10px;
 }
 
-
+#tab-description p{
+	margin: 0;
+}
 
 #tab-additional_information{
 	width: 50%;
@@ -335,6 +336,10 @@ button.single_add_to_cart_button{
 #tab-reviews h2{
 	display: inline-block;
 	margin-top: 10px;
+}
+
+p .comment-form-comment{
+	
 }
 
 
