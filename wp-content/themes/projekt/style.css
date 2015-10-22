@@ -133,22 +133,114 @@ css för produktvy
 
 */
 
+<<<<<<< Updated upstream
 #content ul{
+=======
+#content{
+	overflow: hidden;
+}
+
+
+#content .woocommerce-breadcrumb{
+	display: inline;
+}
+
+#content h1.page-title{
+	display: inline;
+	margin-left: 140px;
+	margin-right: 33%;
+}
+
+#content .woocommerce-result-count{
+	display: inline;
+	margin-right: 2%;
+}
+
+#content .woocommerce-ordering{
+	display: inline;
+}
+
+#content ul.products{
+	bo rder: 1px dashed red;
+	width: 80%;
+>>>>>>> Stashed changes
 	list-style: none;
-	bord er: 1px dashed red;
 	padding:0;
+	float: right;
+	overflow: hidden;
 }
 
-#content ul li{
-	width: 30%;
+#content ul.products li.type-product{
+	border: 1px solid #eee;
+	width: 25%;
+	overflow: hidden;
 	margin: 0;
-	bord er: 1px dashed blue;
-	float: left;
 	margin-right: 20px; 
+	margin-bottom: 20px;
+	float: left;
+	padding: 20px;
+}
+
+#content ul li.type-product:nth-child(3n){
+	margin-right: 0px;
 }
 
 
+/*
+	css för sidebarfiter
+*/
 
+aside.sidebar-filter {
+	width: 15%;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background: #fff;
+	margin-top: 20px;
+	float: left;
+	padding-left: 0;
+}
+
+.filterbtn {
+	margin: 0;
+	margin-bottom: 6px;
+	padding-bottom: 4px;
+	text-transform: uppercase;
+	font-size: 18px;
+	border-bottom: 1px solid #eee;
+}
+
+.filterbtn:hover {
+	cursor: pointer;
+}
+
+ul#filter-container {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul#filter-container li.filter-choice{
+	margin: 0;
+	padding: 0;
+	padding: 2px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+ul#filter-container li.filter-choice div.choice-container:hover{
+	background: #eee;
+	cursor: pointer;
+}
+
+ul#filter-container li.filter-choice div h3{
+	margin:0px;
+	padding: 4px;
+	font-size: 16px;
+}
+
+ul#filter-container li.filter-choice div h3:hover{
+	background: #eee;
+}
 
 
 

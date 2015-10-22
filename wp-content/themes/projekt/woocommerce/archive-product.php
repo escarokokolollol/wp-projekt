@@ -9,11 +9,16 @@
  * @version     2.0.0
  */
 
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
+
+
 get_header( 'shop' ); ?>
+
+
 
 	<?php
 		/**
@@ -24,6 +29,8 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_before_main_content' );
 	?>
+
+
 
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
@@ -52,6 +59,48 @@ get_header( 'shop' ); ?>
 				 */
 				do_action( 'woocommerce_before_shop_loop' );
 			?>
+
+			<aside class="sidebar-filter" >
+		<ul id="filter-container">
+			<h2 class="filterbtn">Modell</h2>
+			<li class="filter-choice">
+				<div class="choice-container"><h3>Tight</h3></div>
+				<div class="choice-container"><h3>Slim</h3></div>
+				<div class="choice-container"><h3>Straight</h3></div>
+				<div class="choice-container"><h3>Loose</h3></div>
+			</li>
+			<h2 class="filterbtn">Pris</h2>
+			<li class="filter-choice">
+				<div class="choice-container"><h3>300-500</h3></div>
+				<div class="choice-container"><h3>500-800</h3></div>
+				<div class="choice-container"><h3>800-1200</h3></div>
+				<div class="choice-container"><h3>1200<</h3></div>
+			</li>
+			<h2 class="filterbtn">Färg</h2>
+			<li class="filter-choice">
+				<div class="choice-container"><h3>Blå</h3></div>
+				<div class="choice-container"><h3>Svart</h3></div>
+				<div class="choice-container"><h3>Vit</h3></div>
+				<div class="choice-container"><h3>Andra</h3></div>
+			</li>
+			<h2 class="filterbtn">Märken</h2>
+			<li class="filter-choice">
+				<div class="choice-container"><h3>Nudie</h3></div>
+				<div class="choice-container"><h3>Lee</h3></div>
+				<div class="choice-container"><h3>Levis</h3></div>
+				<div class="choice-container"><h3>Crocker</h3></div>
+				<div class="choice-container"><h3>Cheap Monday</h3></div>
+				<div class="choice-container"><h3>Tiger of Sweden</h3></div>
+				<div class="choice-container"><h3>Acne</h3></div>
+				<div class="choice-container"><h3>G-star Raw</h3></div>
+				<div class="choice-container"><h3>Replay</h3></div>
+				<div class="choice-container"><h3>Crocker</h3></div>
+				<div class="choice-container"><h3>Diesel</h3></div>
+				<div class="choice-container"><h3>Wrangler</h3></div>
+			</li>
+		</ul>
+	</aside>	
+
 
 			<?php woocommerce_product_loop_start(); ?>
 
@@ -97,5 +146,7 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_sidebar' );
 	?>
+
+	
 
 <?php get_footer( 'shop' ); ?>

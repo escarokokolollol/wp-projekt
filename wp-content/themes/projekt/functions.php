@@ -6,7 +6,7 @@
 	
 	add_action('wp_enqueue_scripts', 'theme_stylesheet');
 
-
+	add_filter('show_admin_bar', '__return_false');
 
 //Navs
 	register_nav_menus(array(
