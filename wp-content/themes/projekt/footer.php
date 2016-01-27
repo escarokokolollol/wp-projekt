@@ -1,5 +1,7 @@
 	</div><!--  end of container --> 
 
+</div>
+</div>
 	<footer>
 
 
@@ -16,7 +18,7 @@
   		</nav>
 
 
-
+  		<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y');?></p>
 
 
 

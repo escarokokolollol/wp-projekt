@@ -7,7 +7,7 @@
 		<article>
 
 
-			<a href=""><img src="<?php ?>"><h1><?php ?></h1></a>
+			
 
 
 
